@@ -1,0 +1,33 @@
+.index {
+  flex-direction: column;
+  width: 100%;
+}
+.full {
+  background:linear-gradient(45deg,#ffa4ad,#8bddf1);
+  height: 100vh
+}
+.btn {
+  color: white;
+  // background-color: #2aa54f;
+  background-image: linear-gradient(to bottom right, #aadcff, #6e9fee);
+  width: 70vw;
+}
+.AtInput{
+  color: #ffffff;
+  background:linear-gradient(to top right,#ff4b3e85,#ff683a8e);
+  border-radius: 15px;
+  .at-icon{
+    color: #1b345d;
+  }
+  .at-input{
+    &__title {
+      font-size: 24px;
+      margin-right: 0;
+      padding-left: 5vw;
+      background-color:rgba(190, 66, 66, 0);
+    }
+  }
+}
+.imageSelect{
+  background-color:rgba(190, 66, 66, 0.7);
+}
